@@ -1,13 +1,12 @@
-import React from 'react';
-import ReactDOM from 'react-dom';
-import App from './App';
-import './index.css';
-
+import React from "react";
+import ReactDOM from "react-dom";
+import App from "./App";
+import "./index.css";
+import ContextWrapper from "./context/ContextWrapper";
 ReactDOM.render(
-  
+  <ContextWrapper>
     <App />
-  
-  ,document.getElementById('root')
+  </ContextWrapper>,
+
+  document.getElementById("root")
 );
-
-
