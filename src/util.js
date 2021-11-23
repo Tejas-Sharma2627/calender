@@ -10,7 +10,5 @@ export const getMonth=(month=dayjs().month())=>{
            return dayjs(new Date(year, month, currentMonthCount));
         })
     });
-
-
-
+return dayMatrix;
 }
