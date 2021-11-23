@@ -5,14 +5,7 @@ module.exports = {
     extend: {},
   },
   variants: {
-    extend: {
-      fontFamily: {
-        sans: ["Open Sans"]
-      },
-      gridTemplateColumns: {
-        "1/5": "1fr 5fr"
-      }
-    },
+    extend: {fontStyle: ['hover', 'focus']},
   },
   plugins: [require('@tailwindcss/forms')],
 }
