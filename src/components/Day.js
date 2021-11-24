@@ -9,14 +9,13 @@ function Day({ day, rowInd }) {
   };
   const handleEnlargeTab = () => {
     setShowEnlargeTab(true);
-    // console.log(data.values(day.format("DD-MM-YY")))
   };
 
   return (
     <div className={`border border-gray-200 flex flex-col `}>
       <header className={`flex flex-col items-center `}>
         {rowInd === 0 && (
-          <p className="text-sm mt-1">{day.format("dddd").toUpperCase()}</p>
+          <p className="text-sm mt-1 border border-gray-200 flex flex-col">{day.format("dddd").toUpperCase()}</p>
         )}
         <p
           className={`text-sm p-1 my-1 text-center ${
