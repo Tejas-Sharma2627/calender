@@ -20,10 +20,10 @@ function EnlargeTab() {
         </header>
         <div className="p-3">
           <div className="flex">
-            <span className="material-icons-outlined text-gray-400">
+            <span className="material-icons-outlined text-gray-400 px-4">
               schedule
             </span>
-            <span className="mr-10 text-xl flex">{time}</span>
+            <span className="mr-10 text-base flex">{time}</span>
           </div>
         </div>
       </div>

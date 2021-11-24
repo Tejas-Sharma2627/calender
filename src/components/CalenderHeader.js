@@ -34,7 +34,7 @@ function CalenderHeader() {
   </div>
 </form>
 <button class="bg-green-500 hover:bg-green-400 text-white font-bold py-2 px-4 border-b-4 border-green-700 hover:border-blue-500 rounded">
-
+<CSVLink data={data}>Import as CSV</CSVLink>
 </button>
     </header>
   );
