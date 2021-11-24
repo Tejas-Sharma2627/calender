@@ -1,10 +1,9 @@
-const data ={
-    "14-11-21":{
+const data =[
+   {"date":"14-11-21",
     "Entry":"11:00 AM",
     "Exit":"12:00 AM"
     },
-    "11-11-21":{
-        "Entry":"9:00 AM",
+    "11-11-21":{        "Entry":"9:00 AM",
         "Exit":"12:00 AM"
     },
     "21-10-21":{
@@ -106,5 +105,5 @@ const data ={
         "Entry":"11:00 AM",
         "Exit":"12:00 AM"
     }
-}
+]
 export default data;
